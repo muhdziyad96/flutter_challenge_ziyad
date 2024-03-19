@@ -43,7 +43,6 @@ class MyApp extends StatelessWidget {
         (BuildContext context, Orientation orientation, DeviceType deviceType) {
       return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        // onGenerateRoute: RouteServices.generateRoute,
         title: 'GameTrove',
         builder: (context, child) {
           return SafeArea(

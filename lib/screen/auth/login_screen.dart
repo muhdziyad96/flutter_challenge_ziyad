@@ -1,6 +1,5 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_challenge_ziyad/constant/color.dart';
 import 'package:flutter_challenge_ziyad/controller/home_controller.dart';
 import 'package:flutter_challenge_ziyad/controller/user_controller.dart';
@@ -89,7 +88,7 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
-                  'Pump It',
+                  'GameTrove',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 48,
